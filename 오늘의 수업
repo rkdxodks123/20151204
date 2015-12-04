@@ -11,6 +11,8 @@ import requests
 
 packet =''
 
+url_local ="http://127.0.0.1:4242/api/put"
+
 def insert(metric_name, id_Value, value):
     data={
         "metric":metric_name,
